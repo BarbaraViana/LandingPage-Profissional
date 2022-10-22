@@ -1,0 +1,50 @@
+:root {
+    --bg-body: #131416;
+    --color-font: #ffff;
+    --color-button: #0772eb;
+    --color-card: #1e212c;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-body);
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.logo h2 {
+    color: var(--color-font);
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.action-title h2 {
+    font-size: 40px;
+    color: var(--color-font);
+}
+
+.ebook img {
+    width: 230px;
+    height: auto;
+}
