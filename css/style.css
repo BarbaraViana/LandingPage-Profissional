@@ -59,7 +59,7 @@ header .logo {
 
 .ebook img {
     width: 230px;
-    height: auto;
+    height: 360px;
     margin-right: 50px;
 }
 
@@ -99,4 +99,60 @@ header .logo {
 .card img {
     width: 65px;
     width: 65px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.button-2 {
+    display: inline-block;
+    background-color: #1e212c;
+    color: var(--color-font);
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.section-3 h2 {
+    font-size: 48px;
+    color: #0772eb;
+}
+
+.section-3 p {
+    color: var(--color-font);
+    margin-top: -25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c2029;
+    height: 100px;
+    padding-bottom: 40px;
+}
+
+.button-footer {
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: var(--color-button);
+    border-radius: 50px;
+    color: var(--color-font);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -40px;
+}
+
+footer p {
+    color: var(--color-font);
+    font-size: 14px;
+    margin-top: 30px;
 }
